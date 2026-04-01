@@ -117,4 +117,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 # settings.py
-ALLOWED_HOSTS = ['*']  # Sementara pakai bintang dulu agar bisa diakses dari mana saja
+#ALLOWED_HOSTS = ['*']  # Sementara pakai bintang dulu agar bisa diakses dari mana saja
+
+ALLOWED_HOSTS = ['jokodriyono080865.pythonanywhere.com']
