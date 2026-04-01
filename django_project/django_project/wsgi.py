@@ -15,7 +15,7 @@ path = '/home/jokodriyono/my_django_app'
 if path not in sys.path:
     sys.path.append(path)
 
-# 2. Set environment module (Folder yang ada settings.py)
+# 2. Set environmegnt module (Folder yang ada settings.py)
 # Jika folder inti Anda bernama 'py_project_lgr01', maka:
 os.environ['DJANGO_SETTINGS_MODULE'] = 'django_project.settings'
 
