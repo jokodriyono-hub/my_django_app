@@ -16,7 +16,8 @@ if path not in sys.path:
     sys.path.append(path)
 
 # 2. Set environmegnt module (Folder yang ada settings.py)
-# Jika folder inti Anda bernama 'py_project_lgr01', maka:
+# Jika folder inti Anda bernama 'py_project_lgr01', maka:cls
+
 os.environ['DJANGO_SETTINGS_MODULE'] = 'django_project.settings'
 
 from django.core.wsgi import get_wsgi_application
